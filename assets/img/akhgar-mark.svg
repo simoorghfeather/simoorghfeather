@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128"><defs>
+<linearGradient id="akA" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4c06a"/><stop offset=".55" stop-color="#c47a32"/><stop offset="1" stop-color="#7a4318"/></linearGradient>
+<linearGradient id="akF" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#e2401c"/><stop offset=".5" stop-color="#ff8a1e"/><stop offset="1" stop-color="#ffc94a"/></linearGradient>
+<linearGradient id="akI" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#ffd36a"/><stop offset="1" stop-color="#fff4c8"/></linearGradient>
+</defs><path fill="url(#akA)" d="M8 62C11 60 20 59 28 59H104L120 55V67L106 71H92L87 82C92 88 97 94 100 104H28C31 94 36 88 41 82L36 71H28C18 71 11 67 8 62Z"/><path fill="#000" fill-opacity=".22" d="M41 82H87C92 88 97 94 100 104H28C31 94 36 88 41 82Z"/><path fill="url(#akF)" d="M64 58C44 55 38 40 47 26C48 33 52 37 57 37C53 27 58 15 70 7C68 19 76 24 81 32C87 42 84 55 64 58Z"/><path fill="url(#akI)" d="M64 56C56 54 54 46 58 39C59 43 62 45 65 44C64 38 67 33 72 30C72 37 77 42 75 49C73 53 69 56 64 56Z"/></svg>
