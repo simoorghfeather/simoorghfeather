@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="fa" dir="rtl" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>موتورِ بازی‌سازیِ اخگر | Akhgar Engine</title>
+  <meta name="description" content="اخگر، موتورِ بازی‌سازیِ رایگان و متن‌بازِ استودیو پرِ سیمرغ برای ساختِ بازی‌های کارتی؛ بر پایهٔ Godot و با مجوزِ MIT. همراه با بازیِ نمونهٔ دوئلِ اخگر و موتورِ تستِ اندروید.">
+  <meta name="theme-color" content="#0b0b26">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fa_IR">
+  <meta property="og:site_name" content="پرِ سیمرغ">
+  <meta property="og:title" content="موتورِ بازی‌سازیِ اخگر">
+  <meta property="og:description" content="موتورِ رایگان و متن‌باز برای ساختِ بازی‌های کارتیِ اندروید و ویندوز.">
+  <meta property="og:image" content="assets/img/akhgar-og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preload" href="assets/fonts/Vazirmatn.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="engine-page">
+  <a class="skip" href="#engine">پرش به محتوا</a>
+  <div class="sky" aria-hidden="true"></div>
+
+  <header class="nav" id="top">
+    <div class="wrap nav-row">
+      <a class="brand" href="index.html" aria-label="پرِ سیمرغ، صفحهٔ نخست">
+        <img src="assets/img/studio-logo.webp" width="44" height="44" alt="">
+        <span><b>پرِ سیمرغ</b><small>Simorgh Feather</small></span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="باز کردنِ منو"><span></span><span></span><span></span></button>
+      <nav id="menu" class="menu" aria-label="منوی اصلی">
+        <a href="index.html#games">بازی‌ها</a>
+        <a href="#engine" aria-current="page">موتورِ اخگر</a>
+        <a href="#duel">بازیِ نمونه</a>
+        <a href="#test-engine">موتورِ تست</a>
+        <a href="index.html#contact" class="menu-cta">تماس با ما</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== HERO ==================== -->
+    <section class="hero" id="engine">
+      <div class="wrap hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">موتورِ بازی‌سازیِ استودیو پرِ سیمرغ</p>
+          <h1>موتورِ بازی‌سازیِ <span class="gold">اخگر</span></h1>
+          <p class="lead">اخگر موتورِ بازی‌سازیِ استودیو پرِ سیمرغ است؛ نسخه‌ای سفارشی از <b>Godot Engine ۴٫۷</b> که برای ساختِ <b>بازی‌های کارتی</b> آماده شده. هر پروژهٔ تازه از همان لحظهٔ نخست کیتِ کارت، قلم و پوستهٔ فارسی و تنظیماتِ عمودیِ موبایل را دارد؛ تو فقط بازی‌ات را بساز.</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="#duel">دیدنِ بازیِ نمونه</a>
+            <a class="btn btn-ghost" href="#features">ویژگی‌ها</a>
+          </div>
+          <p class="dl-meta">نسخهٔ ۱٫۰٫۰ · برای ویندوزِ ۱۰ و ۱۱ (۶۴ بیتی) · خروجیِ اندروید، ویندوز و وب · مجوزِ MIT</p>
+        </div>
+        <div class="hero-art reveal">
+          <div class="orbit" aria-hidden="true"></div>
+          <img class="hero-logo" src="assets/img/akhgar-mark.svg" width="420" height="420" alt="نشانِ موتورِ اخگر: سندانی که شعله‌ای از آن برمی‌خیزد">
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== GODOT → AKHGAR ==================== -->
+    <section class="section" id="origin">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="eyebrow">از Godot تا اخگر</p>
+          <h2>موتوری جهانی، ساخته‌شده برای بازی‌های کارتیِ ما</h2>
+          <p>اخگر را از صفر ننوشتیم. پایه‌اش <b>Godot Engine</b> است و ما آن را برای بازی‌های کارتی مناسب‌تر کرده‌ایم.</p>
+        </header>
+        <div class="origin">
+          <article class="origin-card reveal">
+            <span class="origin-tag">موتورِ اصلی</span>
+            <h3>Godot Engine ۴٫۷٫۲</h3>
+            <p>Godot یکی از شناخته‌شده‌ترین موتورهای بازی‌سازیِ متن‌باز جهان است که از سالِ ۲۰۱۴ صدها برنامه‌نویس از سراسرِ دنیا آن را می‌سازند. برای بازی‌های دوبعدی و سه‌بعدی ساخته شده، به اندروید، ویندوز، وب و دیگر سکوها خروجی می‌دهد و با <b>مجوزِ MIT</b> منتشر می‌شود؛ یعنی هر کس آزاد است آن را تغییر دهد، با نامِ تازه منتشر کند و با آن بازیِ تجاری بسازد.</p>
+            <p class="muted">ما نسخهٔ پایدارِ ۴٫۷٫۲ را از سایتِ رسمیِ Godot گرفتیم و درستیِ فایل‌ها را با امضای SHA-512 بررسی کردیم.</p>
+          </article>
+          <div class="origin-arrow" aria-hidden="true">←</div>
+          <article class="origin-card akhgar reveal">
+            <span class="origin-tag">آنچه ما افزودیم و تغییر دادیم</span>
+            <h3>اخگر ۱٫۰</h3>
+            <ul class="features">
+              <li><b>کیتِ کارت:</b> کارت، دستهٔ کارت، دستِ بازیکن، برگشتنِ کارت و پویانمایی‌ها آماده‌اند؛ نیازی نیست برای هر بازیِ کارتی از نو نوشته شوند.</li>
+              <li><b>فارسی از روزِ نخست:</b> قلمِ وزیرمتن، اعدادِ فارسی و پوستهٔ تیره-طلاییِ استودیو در هر پروژهٔ تازه.</li>
+              <li><b>پیش‌فرض‌های موبایل:</b> صفحهٔ عمودیِ ۷۲۰×۱۲۸۰ که خودش را با هر گوشی جور می‌کند، رندرِ سبک برای گوشی‌های ضعیف و مدیریتِ دکمهٔ «بازگشت».</li>
+              <li><b>ساختِ کارت با یک کلیک</b> از منوی ویرایشگر.</li>
+              <li><b>نام، نشان و صفحهٔ آغازِ اخگر</b>، و نصب‌کننده‌ای که پیش‌نیازهای اندروید را خودش فراهم می‌کند.</li>
+            </ul>
+          </article>
+        </div>
+        <p class="te-note reveal">هستهٔ موتور، زبانِ GDScript، ویرایشگر و همهٔ توانایی‌های Godot دست‌نخورده مانده‌اند؛ پس هر آموزش و منبعی که برای Godot هست، برای اخگر هم به کار می‌آید. نامِ Godot و مجوزِ آن در پنجرهٔ «دربارهٔ» اخگر و همراهِ فایل‌هایش آمده است.</p>
+      </div>
+    </section>
+
+    <!-- ==================== FEATURES ==================== -->
+    <section class="section" id="features">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="eyebrow">چرا اخگر؟</p>
+          <h2>هرچه یک بازیِ کارتی لازم دارد، از روزِ نخست</h2>
+          <p>اخگر همهٔ توانِ Godot را دارد؛ ما فقط کارهای تکراریِ ساختِ بازیِ کارتی را پیشاپیش انجام داده‌ایم.</p>
+        </header>
+        <div class="values">
+          <article class="value reveal"><span class="vicon" aria-hidden="true">🂠</span><h3>کیتِ کارت</h3><p><code>CardData</code>، <code>Deck</code>، <code>CardView</code> و <code>HandView</code>: کارت با نگاره، برگشتن، بادبزنِ دست، کشیدن و برزدنِ دسته، همه آماده.</p></article>
+          <article class="value reveal"><span class="vicon" aria-hidden="true">ف</span><h3>فارسی از پایه</h3><p>قلمِ وزیرمتن، پوستهٔ تیره و طلایی، اعدادِ فارسی با <code>Cards.fa()</code> و نوشتهٔ راست‌به‌چپ بی‌دردسر.</p></article>
+          <article class="value reveal"><span class="vicon" aria-hidden="true">▯</span><h3>آمادهٔ موبایل</h3><p>پروژهٔ تازه عمودیِ ۷۲۰×۱۲۸۰ است، با رندرِ سبکِ Compatibility و دکمهٔ «بازگشتِ» اندروید که خودش مدیریت می‌شود.</p></article>
+          <article class="value reveal"><span class="vicon" aria-hidden="true">⇪</span><h3>خروجیِ اندروید، ویندوز و وب</h3><p>یک پروژه، سه خروجی. فایلِ APK امضاشده برای اندروید با یک فرمان ساخته می‌شود.</p></article>
+          <article class="value reveal"><span class="vicon" aria-hidden="true">✚</span><h3>کارتِ تازه با یک کلیک</h3><p>از منوی Project › Tools گزینهٔ «کارتِ تازه» را بزن تا یک کارتِ نو ساخته و در ویرایشگر باز شود.</p></article>
+          <article class="value reveal"><span class="vicon" aria-hidden="true">⚖</span><h3>متن‌باز، مثلِ Godot</h3><p>اخگر هم مانندِ Godot با مجوزِ MIT است؛ بازی‌ای که با آن ساخته می‌شود بی‌هیچ سهم و شرطی مالِ سازنده‌اش است.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EDITOR SHOTS ==================== -->
+    <section class="section" id="editor">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="eyebrow">ویرایشگرِ اخگر</p>
+          <h2>دوئلِ اخگر، درونِ موتورِ اخگر</h2>
+          <p>این تصویرها از خودِ موتور گرفته شده‌اند، در حالی که پروژهٔ بازیِ نمونهٔ «دوئلِ اخگر» در آن باز است.</p>
+        </header>
+        <div class="wide-shots reveal" role="list" aria-label="تصویرهای ویرایشگرِ اخگر با پروژهٔ دوئلِ اخگر">
+          <figure class="wide-fig" role="listitem"><button class="shot wide" data-full="assets/img/akhgar-editor-1.webp"><img src="assets/img/akhgar-editor-1.webp" width="1280" height="720" loading="lazy" alt="مدیرِ پروژه‌های اخگر با پروژهٔ دوئلِ اخگر"></button><figcaption>مدیرِ پروژه‌ها: نشانِ اخگر و پروژهٔ «دوئلِ اخگر»</figcaption></figure>
+          <figure class="wide-fig" role="listitem"><button class="shot wide" data-full="assets/img/akhgar-editor-2.webp"><img src="assets/img/akhgar-editor-2.webp" width="1600" height="900" loading="lazy" alt="کارت‌های کیتِ اخگر درونِ ویرایشگر"></button><figcaption>کارت‌های کیتِ اخگر همان‌جا در ویرایشگر دیده و چیده می‌شوند</figcaption></figure>
+          <figure class="wide-fig" role="listitem"><button class="shot wide" data-full="assets/img/akhgar-editor-3.webp"><img src="assets/img/akhgar-editor-3.webp" width="1600" height="900" loading="lazy" alt="اجرای دوئلِ اخگر از درونِ ویرایشگر"></button><figcaption>اجرای بازی با یک کلیک، درونِ خودِ ویرایشگر</figcaption></figure>
+          <figure class="wide-fig" role="listitem"><button class="shot wide" data-full="assets/img/akhgar-editor-4.webp"><img src="assets/img/akhgar-editor-4.webp" width="1600" height="900" loading="lazy" alt="کدِ دوئلِ اخگر در ویرایشگرِ اسکریپت"></button><figcaption>کدِ بازی به زبانِ GDScript؛ کلِ دوئلِ اخگر حدودِ ۴۰۰ خط است</figcaption></figure>
+        </div>
+        <div class="install-steps reveal">
+          <h3>ابزارِ درونیِ استودیو</h3>
+          <p>اخگر فعلاً ابزارِ درونیِ استودیو پرِ سیمرغ است و بازی‌های ما با آن ساخته می‌شوند. نصب‌کنندهٔ ویندوزِ آن سیستم را می‌سنجد، جاوا و ابزارهای اندروید و قالب‌های خروجی را اگر نباشند خودش دانلود می‌کند و میان‌بر روی میزِ کار و منوی استارت می‌سازد. اگر برای همکاری یا آموزش به آن نیاز داری، <a href="mailto:simoorgh.feather@gmail.com?subject=Akhgar%20Engine">به ما ایمیل بزن</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SAMPLE GAME ==================== -->
+    <section id="duel" class="game game-duel">
+      <div class="wrap game-grid">
+        <div class="game-info reveal">
+          <div class="game-title">
+            <img src="assets/img/duel-icon.webp" width="88" height="88" alt="آیکونِ بازیِ دوئلِ اخگر">
+            <div><h2>دوئلِ اخگر</h2><p class="latin">AKHGAR DUEL · بازیِ نمونهٔ موتور</p></div>
+          </div>
+          <ul class="tags"><li>بازیِ نمونه</li><li>کارتی</li><li>رایگان</li><li>آفلاین</li></ul>
+          <p>«دوئلِ اخگر» بازیِ کوچکی است که با موتورِ اخگر ساختیم تا نشان دهیم با کیتِ کارت در چند صد خط چه می‌شود ساخت. پانزده پهلوانِ شاهنامه از سه خاندان رو در روی هم می‌ایستند: هر دور یک کارت از دستِ سه‌کارتی‌ات برگزین؛ حریف هم کارتی رو می‌کند و نیرومندتر می‌برد.</p>
+          <div class="factions">
+            <div class="faction" style="--f:#e2b04a"><b>ایران</b><span>بر توران چیره است (+۲ نیرو)</span></div>
+            <div class="faction" style="--f:#d46a6a"><b>توران</b><span>بر زابل چیره است (+۲ نیرو)</span></div>
+            <div class="faction" style="--f:#58c98b"><b>زابل</b><span>بر ایران چیره است (+۲ نیرو)</span></div>
+          </div>
+          <ul class="features">
+            <li>نخستین کسی که ۴ امتیاز بگیرد، برندهٔ دوئل است</li>
+            <li>پویانماییِ برگشتنِ کارت، بادبزنِ دست و لرزشِ بازنده</li>
+            <li>شمارِ پیروزی‌ها روی گوشی ذخیره می‌شود</li>
+            <li>متن‌باز: کدِ کاملش همراهِ موتور است و برای یادگیری عالی است</li>
+          </ul>
+          <div class="stores" aria-label="دریافتِ دوئلِ اخگر">
+            <a class="store store-apk" href="downloads/AkhgarDuel-1.0.0.apk" download>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span><small>دریافتِ مستقیم</small><b>فایلِ APK</b></span>
+            </a>
+          </div>
+          <p class="dl-meta">نسخهٔ ۱٫۰٫۰ · اندرویدِ ۷ به بالا · ۷۶ مگابایت · امضاشده با کلیدِ استودیو</p>
+          <details class="apk-help">
+            <summary>چطور فایلِ APK را نصب کنم؟</summary>
+            <ol>
+              <li>فایل را با مرورگرِ گوشی دانلود کن.</li>
+              <li>روی فایل بزن. اگر اندروید پرسید، به مرورگر اجازهٔ «نصب از منابعِ ناشناس» بده.</li>
+              <li>«نصب» را بزن. بازی هیچ مجوزی نمی‌خواهد و به اینترنت نیازی ندارد.</li>
+            </ol>
+          </details>
+        </div>
+        <div class="shots reveal" role="list" aria-label="تصویرهای بازیِ دوئلِ اخگر">
+          <button class="shot" role="listitem" data-full="assets/img/duel-shot-1.webp"><img src="assets/img/duel-shot-1.webp" width="540" height="960" loading="lazy" alt="منوی دوئلِ اخگر"></button>
+          <button class="shot" role="listitem" data-full="assets/img/duel-shot-2.webp"><img src="assets/img/duel-shot-2.webp" width="540" height="960" loading="lazy" alt="دستِ سه‌کارتیِ بازیکن و کارت‌های پشت‌وروی حریف"></button>
+          <button class="shot" role="listitem" data-full="assets/img/duel-shot-3.webp"><img src="assets/img/duel-shot-3.webp" width="540" height="960" loading="lazy" alt="رو شدنِ کارت‌ها و نتیجهٔ دور"></button>
+          <button class="shot" role="listitem" data-full="assets/img/duel-shot-4.webp"><img src="assets/img/duel-shot-4.webp" width="540" height="960" loading="lazy" alt="پایانِ دوئل و پیروزی"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TEST ENGINE ==================== -->
+    <section id="test-engine" class="section">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="eyebrow">موتورِ تستِ اندروید</p>
+          <h2>پیش از انتشار، صدها بار آزموده</h2>
+          <p>هر بازیِ ما پیش از رسیدن به دستِ تو از «موتورِ تست» می‌گذرد: ابزاری که خودمان ساختیم تا فایلِ APK را روی گوشیِ مجازیِ اندروید نصب کند، مثلِ یک بازیکنِ واقعی با آن کار کند و در پایان بگوید بازی <b>آمادهٔ انتشار</b> هست یا نه.</p>
+        </header>
+        <div class="te-grid">
+          <article class="te-card reveal">
+            <h3>بررسیِ فایل</h3>
+            <ul class="features">
+              <li>امضای دیجیتال و کلیدِ درست</li>
+              <li>نسخهٔ اندروید، مجوزها و تنظیماتِ انتشار</li>
+              <li>بسته‌بندیِ همهٔ نگاره‌ها و فایل‌های بازی</li>
+              <li>اندازهٔ فایل و هم‌ترازیِ zipalign</li>
+            </ul>
+          </article>
+          <article class="te-card reveal">
+            <h3>آزمونِ روی دستگاه</h3>
+            <ul class="features">
+              <li>نصب، اجرا و زمانِ بالا آمدن</li>
+              <li>دکمهٔ بازگشت، چرخشِ صفحه و رفتن به پس‌زمینه</li>
+              <li>اندازه‌های گوناگونِ صفحه، حالتِ تیره و قلمِ درشت</li>
+              <li>ماندگاریِ داده‌ها پس از بستن و به‌روزرسانی</li>
+            </ul>
+          </article>
+          <article class="te-card reveal">
+            <h3>سناریوی بازی و فشار</h3>
+            <ul class="features">
+              <li>سناریوهای بازی: باز کردنِ منوها، بازی کردن، بردن</li>
+              <li>هزاران لمسِ تصادفی برای یافتنِ خطای پنهان</li>
+              <li>مصرفِ حافظه، کرش‌ها و خطاهای پنهان</li>
+              <li>گزارشِ کامل با تصویر از هر مرحله</li>
+            </ul>
+          </article>
+        </div>
+        <p class="te-note reveal">فایلِ APKِ «دوئلِ اخگر» که روی همین صفحه است، پیش از انتشار از موتورِ تست گذشت: بررسیِ فایل و امضا، نصب و اجرا، یک دوئلِ کامل تا صفحهٔ پیروزی، دکمهٔ بازگشت و پنجرهٔ خروج، اندازه‌های گوناگونِ صفحه و ۲۵۰۰ لمسِ تصادفی، بی هیچ کرش یا خطا. نتیجه: <b>آمادهٔ انتشار</b>.</p>
+      </div>
+    </section>
+
+    <!-- ==================== LICENSE ==================== -->
+    <section class="section" id="license">
+      <div class="wrap">
+        <div class="contact-card reveal">
+          <div>
+            <p class="eyebrow">مجوز و سپاس</p>
+            <h2>بر شانهٔ Godot</h2>
+            <p>اخگر بر پایهٔ <a href="https://godotengine.org" target="_blank" rel="noopener">Godot Engine</a> ساخته شده و مانندِ آن با <b>مجوزِ MIT</b> منتشر می‌شود. از همهٔ سازندگانِ Godot سپاسگزاریم. قلمِ وزیرمتن با مجوزِ SIL OFL به کار رفته است.</p>
+          </div>
+          <div class="mail-box">
+            <p>پرسش، گزارشِ اشکال یا پیشنهاد دربارهٔ اخگر؟</p>
+            <a class="mail" href="mailto:simoorgh.feather@gmail.com?subject=Akhgar%20Engine" dir="ltr">simoorgh.feather@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-row">
+      <div class="brand small"><img src="assets/img/studio-logo.webp" width="32" height="32" alt=""><span><b>پرِ سیمرغ</b></span></div>
+      <nav aria-label="پیوندهای پایینی"><a href="index.html">صفحهٔ نخست</a><a href="index.html#games">بازی‌ها</a><a href="privacy.html">حریمِ خصوصی</a><a href="index.html#contact">تماس</a></nav>
+      <p>© <span id="year">۱۴۰۵</span> استودیو بازی‌سازی پرِ سیمرغ</p>
+    </div>
+  </footer>
+
+  <div class="lightbox" hidden role="dialog" aria-modal="true" aria-label="نمایشِ بزرگِ تصویر">
+    <button class="lb-close" type="button" aria-label="بستن">×</button>
+    <button class="lb-nav lb-prev" type="button" aria-label="تصویرِ قبلی">›</button>
+    <img alt="">
+    <button class="lb-nav lb-next" type="button" aria-label="تصویرِ بعدی">‹</button>
+  </div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
